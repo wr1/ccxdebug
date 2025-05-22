@@ -1,0 +1,6 @@
+site_name: CCXDebug
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Usage: usage.md

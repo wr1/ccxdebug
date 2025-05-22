@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ccxdebug"
+version = "0.1.0"
+description = "A CLI tool to modify CalculiX .inp files (isotropic materials), convert to VTU, and analyze mesh quality."
+authors = ["Your Name <you@example.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.0"
+pyvista = "^0.44.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.0"
+mkdocs = "^1.6.0"
+mkdocs-material = "^9.5.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ccxdebug = "ccxdebug.cli:main"
