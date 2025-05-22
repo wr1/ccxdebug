@@ -2,7 +2,7 @@
 name = "ccxdebug"
 version = "0.1.0"
 description = "A CLI tool to modify CalculiX .inp files (isotropic materials), convert to VTU, and analyze mesh quality."
-authors = ["Your Name <you@example.com>"]
+authors = ["wr1 <8971152+wr1@users.noreply.github.com>"]
 license = "MIT"
 readme = "README.md"
 
